@@ -75,7 +75,7 @@ export default function UploadCV() {
     try {
 
       const res = await axios.post(
-        "http://connectmeweb.runasp.net/api/User/UploadCV",
+        "https://connectmeweb.runasp.net/api/User/UploadCV",
         formData,
         {
           headers: {

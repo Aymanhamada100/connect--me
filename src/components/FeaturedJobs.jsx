@@ -4,7 +4,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 const API = {
-    uploadMatch: "http://yourdomain.com/api/Resume/upload-and-match",
+    uploadMatch: "https://yourdomain.com/api/Resume/upload-and-match",
 };
 
 // ───────── Avatar ─────────

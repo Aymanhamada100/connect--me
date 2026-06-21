@@ -12,7 +12,7 @@ export const API = {
 
 
 // login Company
-export const domainCompany = "http://connectmeef.runasp.net";
+export const domainCompany = "https://connectmeef.runasp.net";
 
 export const APICompany = {
     login: `${domainCompany}/api/CompanyAuth/Login`,

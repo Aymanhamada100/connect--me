@@ -4,7 +4,7 @@ import { GoArrowLeft } from "react-icons/go";
 import ConnectMe from "../assets/Connect Me.png";
 
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
-const domain = "http://connectmeef.runasp.net";
+const domain = "https://connectmeef.runasp.net";
 
 const APIUser = {
     getMyApplications: (userId) => `${domain}/api/Applicants/user/${userId}`,
