@@ -1,6 +1,6 @@
 //login User
 
-export const domain = "http://connectmeweb.runasp.net";
+export const domain = "https://connectmeweb.runasp.net";
 
 export const API = {
     login: `${domain}/api/UserAuth/Login`,
