@@ -39,7 +39,7 @@ export default function App() {
           <Route path="/MyApplications" element={<MyApplications />} />
           <Route path="/Category" element={<Category />} />
           <Route path="/ProfileSetup" element={<ProfileSetup />} />
-          <Route path="*" element={<h1 className="flex justify-center items-center text-3xl">404 | Page Not Found</h1>} />
+          {/* <Route path="*" element={<h1 className="flex justify-center items-center text-3xl">404 | Page Not Found</h1>} />*/}
         </Routes>
       </BrowserRouter>
     </div>
