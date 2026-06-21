@@ -32,7 +32,7 @@ export default function App() {
           <Route path="/ProfilePageCompany" element={<ProfilePageCompany />} />
           <Route path="/ProfilePageUser" element={<ProfilePageUser />} />
           <Route path="/UploadCV" element={<UploadCV />} />
-          <Route path="/Jobportalapp" element={<Jobportalapp />} />
+          {/* <Route path="/Jobportalapp" element={<Jobportalapp />} />*/}
           <Route path="/FeaturedJobs" element={<FeaturedJobs />} />
           <Route path="/CompanyDashboard" element={<CompanyDashboard />} />
           <Route path="/UserJobsPage" element={<UserJobsPage />} />
