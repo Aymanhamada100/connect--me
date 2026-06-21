@@ -2,16 +2,25 @@ import img1 from "../assets/Frame 737.png"
 
 export default function Users() {
     return (
-        <section className="h-244.5 bg-white flex flex-col items-center pt-9.25 gap-15">
-            <div className="w-254 h-30.75 ">
-                <h1 className="font-semibold text-[56px] text-center text-black">Connect with companies and<br /> <span className="text-[#0A77FF]">achieve your goals</span></h1>
+        <section className="bg-white flex flex-col items-center py-12 md:py-16 px-4 gap-8 md:gap-12">
+
+            {/* ===== TITLE ===== */}
+            <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl text-center text-black leading-tight max-w-3xl">
+                Connect with companies and{" "}
+                <br className="hidden sm:block" />
+                <span className="text-[#0A77FF]">achieve your goals</span>
+            </h1>
+
+            {/* ===== SUBTITLE ===== */}
+            <p className="font-normal text-sm md:text-base text-black text-center max-w-md leading-relaxed">
+                Join and be a part of particular number 1 jobs and mentoring community to achieve the goals
+            </p>
+
+            {/* ===== IMAGE ===== */}
+            <div className="w-full max-w-5xl">
+                <img src={img1} alt="users" className="w-full h-auto object-contain" />
             </div>
-            <div className="w-99.75 h-7.75">
-                <p className="font-normal text-[16px] text-black text-center ">Join and be a part of particular number 1 jobs and mentoring community to achieve the goals</p>
-            </div>
-            <div className="w-310.25 h-141.5">
-                <img src={img1} alt="img" />
-            </div>
+
         </section>
     )
 }

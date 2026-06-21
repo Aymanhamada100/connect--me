@@ -148,7 +148,7 @@ export default function ProfilePageUser() {
 
                     {/* Logo */}
                     <div className="px-2 mb-8">
-                        <Link to="/Home">
+                        <Link to="/">
                             <div className="w-8 h-8 text-blue-800 bg-gray-100 rounded-full flex items-center justify-center  text-[50px] font-bold cursor-pointer">
                                 <GoArrowLeft />
                             </div>
