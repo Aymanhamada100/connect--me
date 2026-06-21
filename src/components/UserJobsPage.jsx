@@ -4,7 +4,7 @@ import ConnectMe from "../assets/Connect Me.png";
 import { Link } from "react-router-dom";
 import { GoArrowLeft } from "react-icons/go";
 
-const BASE_URL = "https://connectmeef.runasp.net/api";
+const BASE_URL = "http://connectmeef.runasp.net/api";
 const VACANCY_ALL = `${BASE_URL}/Vacancy/All`;
 const VACANCY_APPLY = `${BASE_URL}/Vacancy/Apply`;
 

@@ -60,7 +60,7 @@ function normalizeJob(j, index) {
 // ─── COMPANY LOGO ─────────────────────────────────────────────────────────────
 function CompanyLogo({ domain, company }) {
     const [error, setError] = useState(false);
-    const faviconUrl = domain ? `https://www.google.com/s2/favicons?sz=64&domain=${domain}` : null;
+    const faviconUrl = domain ? `http://www.google.com/s2/favicons?sz=64&domain=${domain}` : null;
     if (!faviconUrl || error) {
         return (
             <div className="w-11 h-11 rounded-xl border border-gray-100 bg-orange-50 flex items-center justify-center text-orange-500 font-extrabold text-lg shrink-0">
