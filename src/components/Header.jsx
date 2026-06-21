@@ -23,8 +23,7 @@ export default function Header() {
   const links = [
     { name: "Home", path: "/Home" },
     { name: "Find Jobs", path: "/UploadCV" },
-    //  { name: "Companies", path: "/Companies" },
-    // { name: "Categories", path: "/Category" },
+
     { name: "Apply Jobs", path: "/UserJobsPage" },
     // { name: "Apply ", path: "/MyApplications" },
   ];

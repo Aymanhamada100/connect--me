@@ -12,7 +12,7 @@ import FeaturedJobs from "./components/FeaturedJobs";
 import HomeCompany from "./pages/HomeCompany";
 import Category from "./pages/Category";
 import JobPortalSections from "./components/JobPortalSections";
-import Jobportalapp from "./components/JobPortalApp";
+//import Jobportalapp from "./components/JobPortalApp";
 import CompanyDashboard from "./components/CompanyDashboard";
 import UserJobsPage from "./components/UserJobsPage";
 import MyApplications from "./components/MyApplications";
