@@ -31,7 +31,7 @@ export default function useLogin() {
             }
 
             toast.success("Login Successful");
-            navigate('/Home');
+            navigate('/');
 
         } catch (err) {
             console.log(err.response?.data);
