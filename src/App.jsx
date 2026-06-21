@@ -23,7 +23,7 @@ export default function App() {
     <div className="w-full h-full">
       <BrowserRouter>
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/HomeCompany" element={<HomeCompany />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
